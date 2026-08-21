@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thank You &mdash; Phoenix Electronics Recycling</title>
+<style>
+:root{
+  --green:#1e7d32;
+  --green-dark:#14532a;
+  --ink:#333333;
+  --line:#e2e6e3;
+  --maxw:1120px;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  color:var(--ink);
+  background:#eef3ee;
+  font-family:"Segoe UI",Arial,Helvetica,sans-serif;
+  font-size:16px;
+  line-height:1.6;
+}
+a{color:var(--green)}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+
+.topbar{background:var(--green)}
+.topbar-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:24px;max-width:var(--maxw);margin:0 auto;padding:14px 24px;
+}
+.topbar a.brand{
+  color:#fff;text-decoration:none;font-size:1.2rem;font-weight:700;
+  letter-spacing:.03em;text-transform:uppercase;
+}
+.topbar nav a{
+  color:#fff;text-decoration:none;font-size:.95rem;margin-left:26px;
+}
+.topbar nav a:hover{text-decoration:underline}
+
+.thanks{
+  max-width:640px;margin:80px auto;background:#fff;border-top:4px solid var(--green);
+  padding:48px 40px;text-align:center;
+}
+.thanks h1{margin:0 0 14px;font-size:1.8rem;color:#1a1a1a}
+.thanks p{margin:0 0 10px;font-size:1.02rem;color:#4a4a4a}
+.thanks .btn{
+  display:inline-block;margin-top:22px;
+  background:var(--green);color:#fff;text-decoration:none;
+  font-size:.95rem;padding:12px 28px;
+}
+.thanks .btn:hover{background:var(--green-dark)}
+
+.foot-bar{
+  border-top:1px solid #d7ddd8;padding:24px;text-align:center;
+  font-size:.78rem;color:#8b948f;margin-top:60px;
+}
+
+@media (max-width:600px){
+  .topbar-inner{flex-direction:column;gap:8px;text-align:center}
+  .topbar nav a{margin:0 10px}
+  .thanks{margin:40px 16px;padding:36px 22px}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html">Phoenix Electronics Recycling</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="what-we-take.html">What We Take</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="thanks">
+    <h1>Thanks for reaching out!</h1>
+    <p>Your message has been sent. We'll get back to you as soon as possible.</p>
+    <p>If your request is urgent, feel free to call us directly at
+       <a href="tel:9517717388">951.771.7388</a>.</p>
+    <a class="btn" href="index.html">Back to Home</a>
+  </div>
+</main>
+
+<div class="foot-bar">&copy; 2026 Phoenix Electronics Recycling. All rights reserved.</div>
+
+</body>
+</html>
